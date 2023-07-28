@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #111;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header img {
+            height: 40px;
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 20px;
+        }
+
+        /* Featured Section */
+        .featured {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .movie {
+            width: 30%;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .movie img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="C:\Users\Akanksha Gurav\Desktop\netflix homepage\Netflix.jpg" alt="Netflix Logo">
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h2>Featured Movies</h2>
+        <div class="featured">
+            <div class="movie">
+                <img src="movie 1.jpg" alt="Movie 1">
+            </div>
+            <div class="movie">
+                <img src="movie 2.jpg" alt="Movie 2">
+            </div>
+            <div class="movie">
+                <img src="movie 3.jpg" alt="Movie 3">
+            </div>
+            <!-- Add more movie items here -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © 2023 Netflix Clone</p>
+        <p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact</a>
+        </p>
+    </footer>
+</body>
+</html>
